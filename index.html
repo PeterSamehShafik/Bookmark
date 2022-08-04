@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css"></link>
+    <link rel="stylesheet" href="css/style.css"></link>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Bookmarker</h1>
+        </div>
+    </header>
+
+    <hr>
+
+    <section class="bookmark">
+        <div class="container colored">
+            <div class="bookmark-content">
+                <h2>Bookmark your favourite site</h2>
+
+                <label for="bName">Site Name</label>
+                <input type="text" id="bName" placeholder="Bookmark Name">
+                <div class="error">
+                    <span class="name-error">Name is required</span>
+                </div>
+                <label for="bURL">Site URL</label>
+                <input type="text" id="bURL" placeholder="Website URL">
+                <div class="error">
+                    <span class="url-error">URL is required</span>
+                </div>
+
+                <button class="btn" id="sumbitBTN">Sumbit</button>
+            </div>
+        </div>
+
+        <div class="bookmark-list">
+        </div>
+    </section>
+
+    <hr>
+
+    <footer>
+        <span>© 2019 Bookmarker Inc.</span>
+    </footer>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>

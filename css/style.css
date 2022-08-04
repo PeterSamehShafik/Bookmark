@@ -1,0 +1,126 @@
+:root{
+    --greyColor:#AAA;
+}
+body{
+    width: 80%;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header h1,footer span{
+    color: var(--greyColor);
+    font-weight: 600;
+}
+header,section,footer{
+    width: 90%;
+    margin: auto;
+}
+
+header h1{
+    font-size: 30px;
+    margin:30px 0px 60px 0px;
+}
+footer span{
+    font-size: 15px;
+}
+.colored{
+    background-color: #EEE;
+}
+
+.bookmark .container{
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bookmark-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.bookmark-content h2{
+    font-size: x-large;
+    font-weight: 600;
+}
+.bookmark-content label{
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.bookmark-content input{
+    border: none;
+    width: 90%;
+    margin: auto;
+    padding: 2px 5px;
+    border-radius: 1px;
+}
+.bookmark-content input:hover {
+    box-shadow: 0px 0px 12px -7px #888;
+}
+.btn{
+    padding: 10px 15px;
+    font-size: 15px;
+    margin: 15px auto 0px auto;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #1167c4;
+    color: white;
+    border: 1px solid #1167c4;
+    max-width: fit-content;
+}
+.btn:hover{
+    background-color: #0a3f77;
+    border: 1px solid #0a3f77;
+    box-shadow: 2px 5px 3px 0px #888;
+}
+
+.bookmark-list{
+    margin: 30px 0px;
+    /* padding: 40px; */
+    background-image: linear-gradient(to bottom, #EEE,#fff);
+}
+.bookmarked-item{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+.bookmarked-item .btn, .bookmarked-item p{
+    margin: 0;
+
+}
+.bookmarked-item p{
+    font-weight: 900;
+    font-size: 20px;
+}
+.bookmarked-item .btn-red{
+    background-color: #910004;
+    border: 1px solid #910004;
+    margin-left: 4px;
+}
+.bookmarked-item .btn-red:hover{
+    background-color: #510d0e;
+    border: 1px solid #510d0e;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.error{
+    width: 90%;
+    margin: 10px auto;
+    background-color: #ffb2b2;
+    border: 1px solid #6d0000;
+    border-radius: 5px;
+    display: none;
+    color: #6d0000;
+    font-weight: 700;
+    font-size: larger;
+    
+}
